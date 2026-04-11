@@ -29,4 +29,4 @@ const todosLosNombresSonLargos = names.every(name => name.length > 3)
 console.log(todosLosNombresSonLargos) // -> false
 
 //find retorna el primer elemento que cumple con la condicion si no encuentra devuelve undefined
-// findIndex devuelve el indice del primer elemento que cumple con la condicion sino encuentra devuelve -1
+//findIndex devuelve el indice del primer elemento que cumple con la condicion sino encuentra devuelve -1
