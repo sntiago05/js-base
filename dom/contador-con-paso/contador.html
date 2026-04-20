@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js" defer></script>
+    <title>Contador completo interactivo</title>
+    <style>
+      .positivo {
+        color: green;
+      }
+      .negativo {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="contador-app">
+      <h2>Contador: <span id="numero">0</span></h2>
+      <div class="botones">
+        <button id="decrementar">-1</button>
+        <button id="reset">Reset</button>
+        <button id="incrementar">+1</button>
+      </div>
+      <div class="controles">
+        <input type="number" id="paso" value="1" min="1" />
+        <label for="paso">Paso</label>
+      </div>
+    </div>
+  </body>
+</html>
